@@ -37,20 +37,20 @@ The [Samba-Stresser](https://github.com/PecceG2/Samba-Stresser) repository provi
 
 ```SMB_Stresser
 
-	############# STRESS CONFIGURATION #############
+############# STRESS CONFIGURATION #############
 
-	$ParallelJobs = 30                # Parallel jobs count
-	$JobSleepTime = 0                 # Time in seconds between jobs (0 for no delay)
+$ParallelJobs = 30                # Parallel jobs count
+$JobSleepTime = 0                 # Time in seconds between jobs (0 for no delay)
 
-	########### END STRESS CONFIGURATION ###########
+########### END STRESS CONFIGURATION ###########
 	
-	############### JOB CONFIGURATION ###############
+############### JOB CONFIGURATION ###############
 
-    $TempFolder = "C:\Users\Administrador\Desktop\tmp"               # Stress TMP copy folder (It auto-delete on finish job)
-    $DestPath = "S:"                                                 # Stress destination folder (Mount your SMB or NFS and attach here)
-    $RandomFilesPerJob = 10                                          # Random files to create per job
+$TempFolder = "C:\Users\Administrador\Desktop\tmp"               # Stress TMP copy folder (It auto-delete on finish job)
+$DestPath = "S:"                                                 # Stress destination folder (Mount your SMB or NFS and attach here)
+$RandomFilesPerJob = 10                                          # Random files to create per job
 
-    ############# END JOB CONFIGURATION #############
+############# END JOB CONFIGURATION #############
 	
 ```
 
