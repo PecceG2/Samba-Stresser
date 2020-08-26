@@ -5,6 +5,7 @@ Import-Module BitsTransfer
 $ParallelJobs = 30                # Parallel jobs count
 $JobSleepTime = 0                 # Time in seconds between jobs (0 for no delay)
 
+########### END STRESS CONFIGURATION ###########
 
 
 ############  START JOBS INSTANCES  ############
